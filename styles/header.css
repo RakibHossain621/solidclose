@@ -1,0 +1,13 @@
+.logo{
+    width: 56px;
+    height: 56px;
+
+}
+header{
+    background-color: var(--secondary-dark-color);
+}
+header .app_button{
+padding: 11px 8px !important;
+height: 45px;
+color: var(--white-color);
+}

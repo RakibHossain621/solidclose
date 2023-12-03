@@ -14,13 +14,14 @@
   /* Google Font */
   --primary-font: "Montserrat", serif;
   /* Theme Color */
-  --primary-color: #f05026;
-  --secondary-color: #111111;
+  --primary-color: #F05026;
+  --black-color: #000000;
   --gray-color: #f5f6f6;
-  --secondary-dark-color: #555;
+  --secondary-color: #FC4C1B;
+  --secondary-dark-color: #292624;
   --footer-color: #b4b6bb;
   --white-color: #fff;
-  --bg-primary: #f7f5ef;
+  --bg-dark-primary: #484340;
   --red-color: #eb001b;
   --text-color: #16171c;
   --text-secondary-color: #363a45;

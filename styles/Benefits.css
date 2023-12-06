@@ -1,0 +1,36 @@
+.benfits_heading h1{
+color: #FC4C1B;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.benfits_heading p{
+color: #FFF;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.single-befite{
+width: 400px;
+height: 270px;
+padding: 24px;
+border-radius: 10px;
+background: #292624;
+}
+.single-befite h1{
+color: var(--white-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.single-befite p{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+.app_button{
+    color: var(--white-color);
+}

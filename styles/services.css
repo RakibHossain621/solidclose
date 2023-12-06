@@ -1,0 +1,36 @@
+.services_header h1{
+color: var(--secondary-color);
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.services_header p{
+color: var(--white-color);
+font-size: 31px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.single_serviecs{
+width: 400px;
+height: 550px;
+padding: 24px;
+gap: 18px;
+border-radius: 10px;
+background: #292624;
+}
+.single_serviecs h1{
+color: var(--secondary-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.single_serviecs span{
+color: var(--secondary-color);
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}

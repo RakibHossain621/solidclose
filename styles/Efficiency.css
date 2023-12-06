@@ -1,8 +1,15 @@
 .single_Efficiency{
-background-color: white;
+background-color: var(--white-color);
 width: 400px;
 height: 217px;
 padding: 24px;
 border-radius: 10px;
-background: #302d2b;
+background: var(--box-background);
+}
+
+.single_Efficiency h1{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }

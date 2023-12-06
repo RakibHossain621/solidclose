@@ -1,0 +1,37 @@
+.struggle_head h1{
+color: var(--white-color);
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.struggle_head span{
+    color: var(--secondary-color);
+}
+.strugle-single-icon h1{
+color: #F05026;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.struggle-right img{
+width: 596px;
+height: 518.133px;
+border-radius: 8px;
+background: lightgray 50%;
+}
+.single-icon-contant p{
+color: var(--white-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.single-icon-contant h1{
+color: #F05026;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}

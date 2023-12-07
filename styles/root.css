@@ -16,8 +16,10 @@
   /* Theme Color */
   --primary-color: #f05026;
   --black-color: #000000;
+  --black-color-secondary: #585451;
   --gray-color: #f5f6f6;
   --secondary-color: #fc4c1b;
+  --secondary-color-opacity: #FFDFD6;
   --secondary-dark-color: #292624;
   --footer-color: #b4b6bb;
   --white-color: #fff;
@@ -92,6 +94,7 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  cursor: pointer;
 }
 .app_button_secondary {
   padding: 11px 8px;
@@ -100,8 +103,8 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  background: #585451;
   border: none;
   outline: none;
   border-radius: 5px;
+  cursor: pointer;
 }

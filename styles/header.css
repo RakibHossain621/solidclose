@@ -1,13 +1,38 @@
-.logo{
-    width: 56px;
-    height: 56px;
+.logo {
+  width: 56px;
+  height: 56px;
+}
+.dark-mode header {
+  background-color: var(--secondary-dark-color);
+}
 
+header .app_button {
+  padding: 11px 8px !important;
+  height: 45px;
+  color: var(--white-color);
 }
-header{
-    background-color: var(--secondary-dark-color);
+
+.dark-mode .dark-logo {
+  display: block;
 }
-header .app_button{
-padding: 11px 8px !important;
-height: 45px;
-color: var(--white-color);
+.dark-mode .white-logo {
+  display: none;
+}
+.dark-logo {
+  display: none;
+}
+
+.nav_btn .app_button_secondary {
+  background: var(--secondary-color-opacity);
+}
+.dark-mode .nav_btn .app_button_secondary {
+  background: var(--black-color-secondary);
+}
+
+.navigation_icons {
+  fill: var(--secondary-dark-color);
+}
+
+.dark-mode .navigation_icons {
+  fill: var(--white-color);
 }

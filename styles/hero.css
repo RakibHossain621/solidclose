@@ -1,26 +1,41 @@
-.hading_title{
-color: var(--white-color);
-font-family: Montserrat;
-font-size: 60px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.hading_title {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.hading_title span{
-color: var(--secondary-color);
-}
-.hero-section{
-    background: linear-gradient(180deg, #292624 55.66%, rgba(72, 67, 64, 0.00) 100%);
-}
-.hero-left p{
-color: var(--white-gray);
-font-size: 20px;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-margin-top: 10px;
-}
-.hero-left .app_button{
+
+.dark-mode .hading_title{
     color: var(--white-color);
-    margin-top: 2em;
+}
+.hading_title{
+    color: var(--bg-dark-primary);
+}
+
+.hading_title span {
+  color: var(--secondary-color);
+}
+.dark-mode .hero-section {
+  background: linear-gradient(180deg, #292624 55.66%, rgba(72, 67, 64, 0) 100%);
+}
+.hero-left p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.dark-mode .hero-left p{
+    color: var(--white-gray);
+}
+
+.hero-left p{
+    color: var(--bg-dark-primary);
+}
+
+.hero-left .app_button {
+  color: var(--white-color);
+  margin-top: 2em;
 }

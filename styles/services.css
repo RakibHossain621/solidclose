@@ -34,3 +34,14 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+.single_serviecs .app_button_secondary{
+    color: var(--white-color);
+    background: var(--primary-color);
+    width: 100%;
+}
+.single_serviecs h1{
+ height: 121px;
+}
+.single_serviecs p{
+height: 202px;
+}

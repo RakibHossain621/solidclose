@@ -144,3 +144,7 @@
     .bg-transparent{
       background: transparent;
     }
+
+    .text-white{
+      color: var(--white-color);
+    }

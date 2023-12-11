@@ -1,53 +1,54 @@
-.services_header h1{
-color: var(--secondary-color);
-font-size: 36px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.services_header h1 {
+  color: var(--secondary-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.services_header p{
-font-size: 31px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.services_header p {
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1em;
+  max-width: 650px;
 }
-.dark-mode .services_header p{
-    color: var(--white-color);
+.dark-mode .services_header p {
+  color: var(--white-color);
 }
-.single_serviecs{
-width: 400px;
-height: 550px;
-padding: 24px;
-gap: 18px;
-border-radius: 10px;
-background: var(--white-color);
-
+.single_serviecs {
+  width: 400px;
+  padding: 24px;
+  gap: 18px;
+  border-radius: 10px;
+  background: var(--white-color);
 }
-.dark-mode .single_serviecs{
-    background: #292624;
+.dark-mode .single_serviecs {
+  background: #292624;
 }
-.single_serviecs h1{
-color: var(--secondary-color);
-font-size: 24px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.single_serviecs h1 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.single_serviecs span{
-color: var(--secondary-color);
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.single_serviecs span {
+  color: var(--secondary-color);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.single_serviecs .app_button_secondary{
-    color: var(--white-color);
-    background: var(--primary-color);
-    width: 100%;
+.single_serviecs .app_button_secondary {
+  color: var(--white-color);
+  background: var(--primary-color);
+  width: 100%;
+  margin-top: 2em;
 }
-.single_serviecs h1{
- height: 121px;
+.single_serviecs h1 {
+  height: 70px;
 }
-.single_serviecs p{
-height: 202px;
+.single_serviecs p {
+  height: 202px;
 }

@@ -27,6 +27,7 @@ header .app_button {
 }
 .dark-mode .nav_btn .app_button_secondary {
   background: var(--black-color-secondary);
+  color: var(--dark-button-bg);
 }
 
 .navigation_icons {

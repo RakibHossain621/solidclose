@@ -1,0 +1,44 @@
+.footer_left p{
+color: var(--white-color);
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer_nav h1{
+color: #FC4C1B;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.footer_nav h6{
+color: #FC4C1B;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.footer_nav_link{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer_left{
+    width: 47%;
+}
+.footer_nav ul li{
+    margin-top: 1em;
+}
+ .nav_social{
+    margin-bottom: 1em;
+ }
+ .footer{
+    background: #292624;;
+ }
+ .footer .container{
+    border-bottom: 1px solid rgba(231, 231, 231, 0.40);
+    padding-bottom: 2em;
+ }

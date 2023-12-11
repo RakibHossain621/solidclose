@@ -30,6 +30,7 @@
   --text-secondary-color: #363a45;
   --white-gray: #dbdbdb;
   --box-background:#302d2b;
+  --dark-button-bg:#8D9FA7;
   --primary-transition: all 0.3s ease-in-out;
   /* Font Size */
   --primary-font-size: 3em;
@@ -98,7 +99,7 @@ img {
 }
 .app_button_secondary {
   padding: 11px 8px;
-  color: #8d9fa7;
+  color: var(--dark-button-bg);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;

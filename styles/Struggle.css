@@ -1,10 +1,14 @@
 .struggle_head h1{
-color: var(--white-color);
 font-size: 36px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+
+.dark-mode .struggle_head h1{
+    color: var(--white-color);
+}
+
 .struggle_head span{
     color: var(--secondary-color);
 }

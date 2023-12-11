@@ -26,11 +26,13 @@ border-radius: 8px;
 background: lightgray 50%;
 }
 .single-icon-contant p{
-color: var(--white-color);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.dark-mode .single-icon-contant p{
+    color: var(--white-color);
 }
 .single-icon-contant h1{
 color: #F05026;

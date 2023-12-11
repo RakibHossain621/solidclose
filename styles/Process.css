@@ -1,20 +1,24 @@
 .process_heading h1{
-    color: var(--white-color);
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+.dark-mode .process_heading h1{
+    color: var(--white-color);
 }
 .process_heading span{
     color:var(--secondary-color);
 
 }
 .process_heading p{
-color:var(--white-color);
 font-size: 17px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+.dark-mode .process_heading p{
+    color:var(--white-color);
 }
 .single_process{
 width: 205px;
@@ -48,18 +52,22 @@ font-weight: 900;
 line-height: normal;
 }
 .process_left p{
-color: var(--white-color);
 font-size: 17px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.dark-mode .process_left p{
+    color: var(--white-color);
+}
 .process_right_single h1{
-color: var(--white-color);
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 2.2em;
+}
+.dark-mode .process_right_single h1{
+    color: var(--white-color);
 }
 .process_left{
 width: 620px;
@@ -68,7 +76,10 @@ width: 620px;
 .process_right{
 padding: 24px;
 border-radius: 10px;
-background: var(--secondary-dark-color);
+background: var(--white-color);
+}
+.dark-mode ..process_right{
+    background: var(--secondary-dark-color);
 }
 .button-process .app_button_secondary{
 color: var(--white-color);

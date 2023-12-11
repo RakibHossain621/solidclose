@@ -1,9 +1,11 @@
 .Guide_area h1{
-color: var(--white-color);
 font-size: 36px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
+}
+.dark-mode .Guide_area h1{
+    color: var(--white-color);
 }
 .Guide_area span{
 color: var(--secondary-color);
@@ -15,11 +17,13 @@ border-radius: 10px;
 background: lightgray 50% / cover no-repeat;
 }
 .guide_right p{
-color: #DBDBDB;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.dark-mode .guide_right p{
+    color:var(--white-color);
 }
 .guide_button .app_button_secondary{
 color: var(--white-color);

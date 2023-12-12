@@ -37,3 +37,10 @@ header .app_button {
 .dark-mode .navigation_icons {
   fill: var(--white-color);
 }
+
+@media (max-width: 550px) {
+  .nav_btn .app_button_secondary,
+  .app_button {
+    display: none;
+  }
+}

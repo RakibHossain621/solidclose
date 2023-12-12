@@ -87,3 +87,43 @@
 .single_process.active h1{
     color: var(--white-color);
 }
+
+
+@media (max-width:1024px){
+  .single_process{
+    height: 60px;
+  }
+  .single_process h1{
+     font-size: 1em;
+  }
+  .single_process_1{
+    height: 60px;
+  }
+  .single_process_1 h1{
+    font-size: 1em;
+  }
+}
+@media (max-width:550px){
+  .process_wrapper{
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .single_process{
+    height: 45px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .single_process_1{
+    height: 45px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .process_wrapper_deal{
+    flex-direction: column;
+  }
+  .process_left{
+    width: 100%;
+  }
+}

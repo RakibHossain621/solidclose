@@ -1,32 +1,43 @@
-.Guide_area h1{
-font-size: 36px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.Guide_area h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.dark-mode .Guide_area h1{
-    color: var(--white-color);
+.dark-mode .Guide_area h1 {
+  color: var(--white-color);
 }
-.Guide_area span{
-color: var(--secondary-color);
+.Guide_area span {
+  color: var(--secondary-color);
 }
-.guide_left img{
-width: 596px;
-height: 482.133px;
-border-radius: 10px;
-background: lightgray 50% / cover no-repeat;
+.guide_left img {
+  width: 596px;
+  height: 482.133px;
+  border-radius: 10px;
+  background: lightgray 50% / cover no-repeat;
 }
-.guide_right p{
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.guide_right p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.dark-mode .guide_right p{
-    color:var(--white-color);
+.dark-mode .guide_right p {
+  color: var(--white-color);
 }
-.guide_button .app_button_secondary{
-color: var(--white-color);
-background: var(--primary-color);
- 
+.guide_button .app_button_secondary {
+  color: var(--white-color);
+  background: var(--primary-color);
 }
+
+
+@media (max-width:1024px){
+    .guide_wrapper{
+        flex-direction: column;
+    }
+    .guide_left img{
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+  }

@@ -1,4 +1,5 @@
 const gearButton = document.querySelector('.gear-tab');
+const menuButton =  document.querySelector('.hamburger_menu');
 
 if (localStorage.getItem('darkMode') === 'enabled') {
     document.body.classList.add('dark-mode');

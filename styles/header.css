@@ -55,3 +55,9 @@ header .app_button {
   position: absolute;
   z-index: 99;
 }
+
+.hamburger_menu {
+  border: none;
+  outline: none;
+  background: transparent;
+}

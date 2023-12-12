@@ -1,10 +1,14 @@
 .struggle_head h1{
-color: var(--white-color);
 font-size: 36px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+
+.dark-mode .struggle_head h1{
+    color: var(--white-color);
+}
+
 .struggle_head span{
     color: var(--secondary-color);
 }
@@ -22,11 +26,13 @@ border-radius: 8px;
 background: lightgray 50%;
 }
 .single-icon-contant p{
-color: var(--white-color);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.dark-mode .single-icon-contant p{
+    color: var(--white-color);
 }
 .single-icon-contant h1{
 color: #F05026;
@@ -34,4 +40,16 @@ font-size: 24px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+
+
+@media (max-width:1024px){
+    .Sturggle_wrapper{
+        flex-direction: column-reverse;
+    }
+    .struggle-right img{
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 }

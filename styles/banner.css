@@ -1,0 +1,24 @@
+.close_heading h1{
+color: #FFF;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.close_heading p{
+color: #FFF;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.close_heading{
+padding: 60px 45px;
+border-radius: 10px;
+background: linear-gradient(180deg, #F1562D 0%, #FC957B 100%);
+}
+.app_button_secondary{
+    color: #5B5B5B;
+    border-radius: 5px;
+    background: #FFF;
+}
